@@ -41,9 +41,9 @@ class Movie(models.Model):
     rating=models.IntegerField()
 class MovieAdmin(admin.ModelAdmin):
     list_display=('title','genre','release_date','rating')
-
+```
 ## OUTPUT
-WhatsApp Image 2025-06-20 at 14.12.42_97412f33.jpg
+![WhatsApp Image 2025-06-20 at 14 12 42_97412f33](https://github.com/user-attachments/assets/cf43d69c-8e6c-44ce-9a05-cd40261ca880)
 
 ## RESULT
 Thus the program for creating movies database using ORM hass been executed successfully
